@@ -1,0 +1,87 @@
+$bleu: #1A4D86
+
+/*css*/
+* 
+  box-sizing: border-box
+
+html
+  scroll-behavior: smooth
+    
+body
+  margin: 0
+  padding: 0
+
+h1
+  color: #FFF
+  margin-top: 0
+  font-family: 'Solitreo'
+  text-shadow: -2px 3px 6px rgba(17,8,5,0.65)
+
+h2
+  font-size: 2rem
+  padding-top: 2rem
+  font-family: 'Solitreo'
+  color: $bleu
+
+h3 
+  margin: 40px 0 0
+  font-family: Solitreo
+
+ul
+  list-style-type: none
+  padding: 0
+  margin-top: 13rem
+  margin-bottom: 2rem
+  display: flex
+  justify-content: space-around
+  
+hr
+  width: 70%
+  color: black
+  margin-top: 5rem
+
+p
+  font-family: 'Solitreo'
+  font-size: 20px
+
+a
+  text-shadow: -2px 3px 6px rgba(17,8,5,0.65)
+  text-decoration: none
+  color: white
+
+/*CSS par class*/
+
+.float-left
+  float: left
+  margin: 0 80px 19px 0
+
+.float-right
+  float: right
+  margin: 0 0 19px 80px
+
+.title-tel
+  padding-bottom: 1rem
+  padding-top: 3rem
+  font-size: 20px
+
+
+.fade-right
+  animation: fadeRight 3s
+  animation-fill-mode: forwards
+
+.noir
+  color: black
+  text-shadow: none
+  font-family: 'Solitreo'
+  margin: 20px 0
+  font-size: 20px
+
+@keyframes fadeRight
+  0%
+    opacity: 0
+    transform: translateX(100px) 
+    transition-delay: 4s
+
+  100%
+    opacity: 1
+    transform: translate(0)
